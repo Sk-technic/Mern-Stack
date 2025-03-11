@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Default styles for mobile first approach */
+.container {
+    background-color: lightgray;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 600px) {
+    .container {
+        background-color: lightblue;
+    }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 1024px) {
+    .container {
+        background-color: lightgreen;
+    }
+}

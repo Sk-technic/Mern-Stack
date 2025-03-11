@@ -1,0 +1,49 @@
+ /* Practice CSS Pseudo-Classes */
+
+/* Hover effect */
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Focus effect */
+.input-field:focus {
+    border: 2px solid green;
+    outline: none;
+}
+
+/* Active effect */
+.link:active {
+    color: red;
+}
+
+/* First child */
+.list-item:first-child {
+    font-weight: bold;
+}
+
+/* Last child */
+.list-item:last-child {
+    font-style: italic;
+}
+
+/* nth-child example */
+.list-item:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.list-item:nth-child(even) {
+    background-color: white;
+}
+
+/* Disabled state */
+.button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* Checked state */
+.checkbox:checked + label {
+    font-weight: bold;
+    color: green;
+}
