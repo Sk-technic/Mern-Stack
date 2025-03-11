@@ -60,6 +60,10 @@ npm install tailwindcss
 
 #### b) Using CDN (for quick setup):
 ```html
+
+--tailwindCss with CDN Script link..
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 ```
 
